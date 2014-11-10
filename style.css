@@ -29,6 +29,11 @@ h1
 	text-align: center;
 }
 
+div.container
+{
+	width: 500px;
+}
+
 form#app > fieldset
 {
 	padding: 0 1em 1em 1em;
