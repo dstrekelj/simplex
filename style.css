@@ -29,6 +29,14 @@ h1
 	text-align: center;
 }
 
+<<<<<<< HEAD
+=======
+div.container
+{
+	width: 500px;
+}
+
+>>>>>>> master
 form#app > fieldset
 {
 	padding: 0 1em 1em 1em;
