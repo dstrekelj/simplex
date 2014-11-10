@@ -1,0 +1,88 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	
+	background-color: #bbddff;
+	
+	font-family: sans-serif;
+	
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+h1
+{
+	font-family: sans-serif;
+	text-align: center;
+}
+
+form#app > fieldset
+{
+	padding: 0 1em 1em 1em;
+	
+	border-radius: 1em;
+	border: 2px solid #bbb;
+	
+	background-color: #ddd;
+}
+
+form#app > fieldset > legend
+{
+	width: 100%;
+	padding: 0.5em 1em;
+	background-color: #fff;
+	
+	border: 2px solid #bbb;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	
+	text-align: center;
+}
+
+form#app label, form#app textarea, form#app input
+{
+	width: 100%;
+	display: inline-block;
+	resize: none;
+}
+
+form#app div:not(#Result)
+{
+	margin-top: 1em;
+}
+
+.text
+{	
+	padding: 0.5em;
+	
+	background-color: #fff;
+	
+	font-family: monospace;
+	font-size: 1.2em;
+	border-radius: 0.5em;
+	border: 1px solid #aaa;
+}
+
+.area
+{
+	height: 10em;	
+}
+
+.highlight
+{
+	color: #fff;
+	background-color: #ff4433;	
+}
